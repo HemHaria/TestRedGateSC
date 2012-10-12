@@ -1,0 +1,6 @@
+CREATE TABLE [dbo].[TEST3]
+(
+[ID] [int] NOT NULL IDENTITY(1, 1),
+[TEST4] [nvarchar] (100) COLLATE Latin1_General_CI_AS NULL
+) ON [PRIMARY]
+GO
